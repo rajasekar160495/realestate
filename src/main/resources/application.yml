@@ -1,0 +1,44 @@
+server:
+  port: 8085
+
+mock-data:
+  data:
+    -
+      name: sri-villas
+      id: 1
+      rating: 4
+      typeOfProperty: Villa
+      status: Available
+      price: 100000
+      ownerId: 1
+      address:
+          area: Mugapair
+          pinCode: 600056
+          city: Chennai
+          state: TamilNadu
+    -
+      name: Two BHK
+      id: 2
+      rating: 3
+      typeOfProperty: 2BHK
+      status: Available
+      price: 2000000
+      ownerId: 1
+      address:
+        area: Mugapair
+        pinCode: 600123
+        city: Kancheepuram
+        state: TamilNadu
+    -
+      name: Three BHK
+      id: 3
+      rating: 5
+      typeOfProperty: 3BHK
+      status: Available
+      ownerId: 2
+      price: 2005500
+      address:
+        area: Poonamllee
+        pinCode: 600123
+        city: Kancheepuram
+        state: TamilNadu
